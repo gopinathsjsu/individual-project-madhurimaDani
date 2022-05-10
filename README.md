@@ -1,4 +1,4 @@
-# Individual Project
+# CMPE 202 Individual Project
 #### Madhurima Subodh Dani (015261974)
 
 #### Commands:
