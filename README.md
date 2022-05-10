@@ -10,9 +10,9 @@ Execute: java -cp ./myTarget edu.sjsu.mdani.Billing
 <br>
 
 #### Design Patterns Implemented:
-- Singleton: InMemoryStorage class is used to create in memory cache for storing inventory and card data. Instance of this class is returned by calling its getInsance method.
+- Singleton: InMemoryStorage class is used to create in memory cache for storing inventory and card data. Instance of this class is returned by calling its getInsance() method.
 - Builder: OrderBuilder class used to build the Order object by calling its build method.
-- Strategy: SuccessOutputStrategy and ErrorOutputStrategy clasess implement OutputFileWriter interfaces's write method to print appropriate messages on console. ResultWriter class calls chosen startegy's write method to print appropriate message.
+- Strategy: SuccessOutputStrategy and ErrorOutputStrategy classes implement OutputFileWriter interfaces's write method to print appropriate messages on console. ResultWriter class calls chosen strategy's write method to print appropriate message.
 
 <br>
 
