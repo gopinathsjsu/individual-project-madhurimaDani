@@ -5,7 +5,7 @@
 Application maintains static database for inventory and card data in form of hashmap and set collections. It reads an input file containing order. With reference to the inventory data, application validates if the ordered quantity of certain item is available in inventory and if the ordered quantity of certain item satisfies its category cap. If validation fails, application writes appropriate message in a txt file. If order is valid, application calculates price per item, total price and writes these numbers in output csv file. Application reduces ordered quantity from the inventory hashmap. If given card number doesn't exists in the card set, application adds it.
 
 #### Steps To Execute Application:
-- Clone repository to local: git clone 
+- Clone repository to local: git clone git@github.com:gopinathsjsu/individual-project-madhurimaDani.git
 - Compile: javac -d ./myTarget  ./\*.java ./\*/\*java
 - Execute: java -cp ./myTarget edu.sjsu.mdani.Billing
 - Program prints inventory and card data on console
